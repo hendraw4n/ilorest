@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright, 2021 - Hendrawan, hendrawan.hendrawan@hpe.com
+# Copyright, 2021 - Hendrawan
 
 login=""
 
