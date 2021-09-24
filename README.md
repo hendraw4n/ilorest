@@ -1,4 +1,4 @@
-# ilorest
+# ilorest for Smart Array
 
 Capture the HPE Smart Array configuration in the HPE Proliant (Gen8 - Gen10) into the JSON file trough ilorest api
 
@@ -25,7 +25,7 @@ $ ./smartarray_check_script.sh
 7) you can find all the JSON output in the current directory with serial number of the server as the name of the file 
 
 
-## Output expected:
+## Output expected
 ```bash
 *** Server Info: ***
 SerialNumber : SGHXXXXXXX
@@ -41,14 +41,12 @@ ServerModel  : ProLiant DL380 Gen10
 *** smartarray config save in SGHDDDDDDD.json ***
 Logging session out.
 
-
 *** Server Info: ***
 SerialNumber : SGHCCCCCCC
 iLO HostName : ILOSGHCCCCCCC
 ServerModel  : ProLiant BL460c Gen8
 *** smartarray config save in SGHCCCCCCC.json ***
 Logging session out.
-
 
 *** Server Info: ***
 SerialNumber : SGHBBBBBBB
@@ -57,3 +55,9 @@ ServerModel  : ProLiant BL660c Gen9
 *** smartarray config save in SGHBBBBBBB.json ***
 Logging session out.
 ```
+
+
+## RESTful Interface Tool for Linux
+if facing an issue, can install the ilorest trough the following link
+https://support.hpe.com/hpesc/public/swd/detail?swItemId=MTX_07ec09e5e97a4c468a99d928ff
+
